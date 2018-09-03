@@ -1,0 +1,365 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <title>Technites | TEAM</title>
+
+    <link href="https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700" rel="stylesheet">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+
+    <!-- FontAwesome CSS -->
+    <link rel="stylesheet" href="css/fontawesome-all.min.css">
+
+    <!-- Swiper CSS -->
+    <link rel="stylesheet" href="css/swiper.min.css">
+
+    <!-- Styles -->
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<style>
+/***
+Bootstrap Line Tabs by @keenthemes
+A component of Metronic Theme - #1 Selling Bootstrap 3 Admin Theme in Themeforest: http://j.mp/metronictheme
+Licensed under MIT
+***/
+
+.content {
+    padding-top: 30px;
+}
+
+/* Heading */
+.heading {
+    z-index: 1;
+    position: relative;
+    text-align: center;
+    margin-bottom: 100px;
+}
+
+.heading:after {
+    left: 50%;
+    height: 3px;
+    width: 50px;
+    content: " ";
+    bottom: -35px;
+    margin-left: -25px;
+    position: absolute;
+    background: #444;
+}
+
+.heading h2 {
+    font-size: 40px;
+    font-weight: 500;
+    margin: 0 0 20px;
+    color: #444;
+}
+
+.heading p {
+    font-size: 16px;
+    font-weight: 300;
+    letter-spacing: 0.5px;
+    text-transform: uppercase;
+    color: #8693a7;
+}
+
+/* Team Members */
+.team-members {
+    width: 100%;
+    cursor: pointer;
+    overflow: hidden;
+    position: relative;
+    margin-bottom: 35px;
+}
+
+.team-members .team-avatar {
+    position: relative;
+}
+
+.team-members .team-avatar:after {
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    content: " ";
+    position: absolute;
+    background: rgba(129, 129, 129, 0.1);
+    transition-duration: 300ms;
+    transition-property: all;
+    transition-timing-function: cubic-bezier(0.7, 1, 0.7, 1);
+}
+
+.team-members .team-avatar img {
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.team-members .team-desc {
+    left: auto;
+    bottom: 0;
+    width: 100%;
+    padding: 0 20px;
+    position: absolute;
+    opacity: 0;
+    color: #fff;
+    -webkit-transform: translate3d(0, 10%, 0);
+    transform: translate3d(0, 10%, 0);
+    -webkit-transition: opacity 0.3s;
+    -moz-transition: opacity 0.3s;
+    -ms-transition: opacity 0.3s;
+    -o-transition: opacity 0.3s;
+    transition: opacity 0.3s;
+}
+
+.team-members .team-desc h4 {
+    font-size: 22px;
+    font-weight: 600;
+    margin: 0 0 10px;
+    color: #fff;
+}
+
+.team-members .team-desc span {
+    display: block;
+    font-size: 13px;
+    font-weight: 600;
+    text-transform: uppercase;
+    color: #fff;
+}
+
+.team-members:hover .team-avatar:after {
+    background: rgba(47, 60, 72, 0.5);
+    transition-duration: 300ms;
+    transition-property: all;
+    transition-timing-function: cubic-bezier(0.7, 1, 0.7, 1);
+}
+
+.team-members:hover .team-desc {
+    -webkit-transform: translate3d(0, -5%, 0);
+    transform: translate3d(0, -5%, 0);
+    -webkit-transform: translate3d(0, -10%, 0);
+    transform: translate3d(0, -10%, 0);
+}
+
+.team-members:hover .team-desc {
+    opacity: 1;
+    -webkit-transition: all 0.4s;
+    -moz-transition: all 0.4s;
+    -ms-transition: all 0.4s;
+    -o-transition: all 0.4s;
+    transition: all 0.4s;
+}
+
+</style>
+
+<body class="about-us">
+    <header class="site-header">
+        <div class="header-bar">
+            <div class="container-fluid">
+                <div class="row align-items-center">
+                    <div class="col-10 col-lg-4">
+                        <h1 class="site-branding flex">
+                            <div>
+                                <a href="http://www.engineernitk.org/">
+                                    <img src="img/Engineer_Logo.png" height="50px" style="vertical-align:middle">
+                                    <span>ENGINEER</span>
+                                </a>
+                            </div>
+                        </h1>
+                    </div>
+
+                    <div class="col-2 col-lg-8">
+                        <nav class="site-navigation">
+                            <div class="hamburger-menu d-lg-none">
+                                <span></span>
+                                <span></span>
+                                <span></span>
+                                <span></span>
+                            </div><!-- .hamburger-menu -->
+
+                            <ul>
+                                <li><a href="index.html">TECHNITES 2018</a></li>
+
+                                
+                                <li><a href="about-us.html">ABOUT US</a></li>
+                                <li><a href="team.html">TEAM</a></li>
+                                <li><a href="alumini.html">ALUMNI</a></li>
+                                <li><a href="sig.html">SIGs</a></li>
+                                <li>
+                                    <a href="#" style="font-size: 30px;"><i class="fab fa-facebook-f"></i></a></li>
+                                <li>  <a href="#" style="font-size: 30px"><i class="fab fa-instagram"></i></a>
+                                </li>
+                                <li><a></a></li>
+                            </ul><!-- flex -->
+                        </nav><!-- .site-navigation -->
+                    </div><!-- .col-12 -->
+                </div><!-- .row -->
+            </div><!-- container-fluid -->
+        </div><!-- header-bar -->
+    </header><!-- .site-header -->
+
+    <div class="page-header">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <div class="entry-header">
+                        <h2 class="entry-title">About us</h2>
+
+                        <ul class="breadcrumbs flex align-items-center">
+                            <li><a href="#">Home</a></li>
+                            <li>About us</li>
+                        </ul><!-- .breadcrumbs -->
+                    </div><!-- .entry-header -->
+                </div><!-- .col-12 -->
+            </div><!-- .row -->
+        </div><!-- .container -->
+    </div><!-- .page-header -->
+
+
+
+    <div class="container content">
+    <div class="heading">
+        <h2>Our <strong>Great Team</strong></h2>
+        <p>To try the most advanced business</p>
+    </div><!-- //end heading -->
+
+    <div class="row">
+        <div class="col-xs-12 col-sm-3">
+            <div class="team-members">
+                <div class="team-avatar">
+                    <img class="img-responsive" src="https://gigaom.com/wp-content/uploads/sites/1/2012/10/apple-exec-scott-forstall.jpg" height="200px" alt="">
+                </div>
+                <div class="team-desc">
+                    <h4>John Doe</h4>
+                    <span>Marketing</span>
+                </div>
+            </div>
+        </div>
+        <div class="col-xs-12 col-sm-3">
+            <div class="team-members">
+                <div class="team-avatar">
+                    <img class="img-responsive" src="https://gigaom.com/wp-content/uploads/sites/1/2012/10/apple-exec-scott-forstall.jpg" height="200px" alt="">
+                </div>
+                <div class="team-desc">
+                    <h4>John Doe</h4>
+                    <span>Marketing</span>
+                </div>
+            </div>
+        </div>
+        <div class="col-xs-12 col-sm-3">
+            <div class="team-members">
+                <div class="team-avatar">
+                    <img class="img-responsive" src="https://gigaom.com/wp-content/uploads/sites/1/2012/10/apple-exec-scott-forstall.jpg" height="200px" alt="">
+                </div>
+                <div class="team-desc">
+                    <h4>John Doe</h4>
+                    <span>Marketing</span>
+                </div>
+            </div>
+        </div>
+        <div class="col-xs-12 col-sm-3">
+            <div class="team-members">
+                <div class="team-avatar">
+                    <img class="img-responsive" src="https://gigaom.com/wp-content/uploads/sites/1/2012/10/apple-exec-scott-forstall.jpg" height="200px" alt="">
+                </div>
+                <div class="team-desc">
+                    <h4>John Doe</h4>
+                    <span>Marketing</span>
+                </div>
+            </div>
+        </div>
+        <div class="col-xs-12 col-sm-3">
+            <div class="team-members">
+                <div class="team-avatar">
+                    <img class="img-responsive" src="https://gigaom.com/wp-content/uploads/sites/1/2012/10/apple-exec-scott-forstall.jpg" height="200px" alt="">
+                </div>
+                <div class="team-desc">
+                    <h4>John Doe</h4>
+                    <span>Marketing</span>
+                </div>
+            </div>
+        </div>
+        <div class="col-xs-12 col-sm-3">
+            <div class="team-members">
+                <div class="team-avatar">
+                    <img class="img-responsive" src="https://gigaom.com/wp-content/uploads/sites/1/2012/10/apple-exec-scott-forstall.jpg" height="200px" alt="">
+                </div>
+                <div class="team-desc">
+                    <h4>John Doe</h4>
+                    <span>Marketing</span>
+                </div>
+            </div>
+        </div>
+        <div class="col-xs-12 col-sm-3">
+            <div class="team-members">
+                <div class="team-avatar">
+                    <img class="img-responsive" src="https://gigaom.com/wp-content/uploads/sites/1/2012/10/apple-exec-scott-forstall.jpg" height="200px" alt="">
+                </div>
+                <div class="team-desc">
+                    <h4>John Doe</h4>
+                    <span>Marketing</span>
+                </div>
+            </div>
+        </div>
+        <div class="col-xs-12 col-sm-3">
+            <div class="team-members">
+                <div class="team-avatar">
+                    <img class="img-responsive" src="https://gigaom.com/wp-content/uploads/sites/1/2012/10/apple-exec-scott-forstall.jpg" height="200px" alt="">
+                </div>
+                <div class="team-desc">
+                    <h4>John Doe</h4>
+                    <span>Marketing</span>
+                </div>
+            </div>
+        </div>
+    </div><!-- //end row -->
+</div>
+
+    
+
+    <footer class="site-footer">
+        <div class="footer-cover-title flex justify-content-center align-items-center">
+            <h2>ENGI 2018</h2>
+        </div><!-- .site-footer -->
+
+        <div class="footer-content-wrapper">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12">
+                        <div class="entry-title">
+                            <a href="#">TECHNITES</a>
+                        </div><!-- entry-title -->
+
+                        <div class="entry-mail">
+                            <a href="#"></a>
+                        </div><!-- .entry-mail -->
+
+                        <div class="copyright-info">
+Module designed by Priyam & Shushant <br> Contributors: Rakshita, Sankalp, Shweta and Thejaswini
+                        </div>
+
+                        <div class="footer-social">
+                            <ul class="flex justify-content-center align-items-center">
+                                <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
+                                <li><a href="#"><i class="fab fa-instagram"></i></a></li>
+                            </ul>
+                        </div><!-- footer-social -->
+                    </div><!-- col -->
+                </div><!-- row -->
+            </div><!-- container -->
+        </div><!-- footer-content-wrapper -->
+    </footer><!-- site-footer -->
+
+    <script type='text/javascript' src='js/jquery.js'></script>
+    <script type='text/javascript' src='js/masonry.pkgd.min.js'></script>
+    <script type='text/javascript' src='js/jquery.collapsible.min.js'></script>
+    <script type='text/javascript' src='js/swiper.min.js'></script>
+    <script type='text/javascript' src='js/jquery.countdown.min.js'></script>
+    <script type='text/javascript' src='js/circle-progress.min.js'></script>
+    <script type='text/javascript' src='js/jquery.countTo.min.js'></script>
+    <script type='text/javascript' src='js/custom.js'></script>
+</body>
+</html>
