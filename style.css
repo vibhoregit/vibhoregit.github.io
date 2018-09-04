@@ -429,29 +429,30 @@ body {
 ## lineup-artists-headline
 ------------------------------------------------------------*/
 .lineup-artists-headline {
-    margin-top: 115px;
+        margin-top: 10%;
 }
 
 .lineup-artists-headline .entry-title p {
     margin: 0;
     padding: 0;
-    font-size: 14px;
+    font-size: 20px;
     font-weight: 600;
     color: hsl(0, 0%, 48%);
 }
 
 .lineup-artists-headline .entry-title h2 {
     width: 100%;
-    font-size: 48px;
+    font-size: 40px;
     font-weight: 600;
-    color: hsl(0, 0%, 0%);
+    color: hsla(0, 0%, 99%, 0.46);
 }
 
 /*------------------------------------------------------------
 ## lineup-artists
 ------------------------------------------------------------*/
 .lineup-artists {
-    padding-top: 80px;
+    padding-top: 20px;
+    max-height: 1300px;
 }
 
 .lineup-artists .featured-image {
@@ -460,7 +461,7 @@ body {
 }
 
 .lineup-artists .featured-image {
-    width: 100%;
+    width: 90%;
 }
 
 .lineup-artists .featured-image img {
@@ -472,7 +473,7 @@ body {
 ### lineup-artists-wrap
 ------------------------------------------------------------*/
 .lineup-artists .lineup-artists-wrap {
-    margin-top: 80px;
+    margin-top: 10%;
 }
 
 .lineup-artists .lineup-artists-wrap .lineup-artists-description {
@@ -482,15 +483,15 @@ body {
 
 .lineup-artists .lineup-artists-wrap .lineup-artists-description-container {
     position: relative;
-    padding: 30px;
-    background: hsl(0, 0%, 100%);
+    padding: 3%;
+    background: hsla(217, 72%, 19%, 0.55);
     box-shadow: 50px 40px 115px rgba(0, 0, 0, 0.1);
 }
 
 .lineup-artists-description .entry-title {
-    font-size: 30px;
+    font-size: 22px;
     font-weight: 600;
-    color: hsl(0, 0%, 9%);
+    color: hsla(0, 0%, 100%, 0.57);
 }
 
 .lineup-artists-description .entry-content {
@@ -513,15 +514,16 @@ body {
 
 
     .lineup-artists .lineup-artists-wrap {
-        margin-top: 30px;
+        margin-top: 20px;
     }
 
     .lineup-artists .featured-image {
         max-width: 360px;
+        max-height: 480px
     }
 
     .lineup-artists .lineup-artists-wrap .lineup-artists-description {
-        width: calc(100% - 360px);
+        width: 60%;
     }
 
     .lineup-artists .lineup-artists-wrap .lineup-artists-description-container {
