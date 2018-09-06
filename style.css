@@ -566,15 +566,15 @@ body {
 # the-complete-lineup
 ------------------------------------------------------------*/
 .the-complete-lineup {
-    margin-top: 115px;
+    margin-top: 75px;
 }
 
 .the-complete-lineup .entry-title p {
     margin: 0;
     padding: 0;
-    font-size: 14px;
+    font-size: 20px;
     font-weight: 600;
-    color: hsl(0, 0%, 48%);
+    color: hsla(200, 96%, 35%, 0.38);
 }
 
 .the-complete-lineup .entry-title h2 {
@@ -582,7 +582,7 @@ body {
     margin: 0;
     font-size: 48px;
     font-weight: 600;
-    color: hsl(0, 0%, 0%);
+    color: hsla(200, 96%, 35%, 0.58)
 }
 
 /*------------------------------------------------------------
@@ -629,7 +629,7 @@ body {
     margin-top: 38px;
     font-size: 24px;
     font-weight: 600;
-    color: hsl(0, 0%, 2%);
+    color: hsla(189, 100%, 50%, 0.38);
     text-align: center;
 }
 
@@ -1042,7 +1042,7 @@ body {
 ------------------------------------------------------------*/
 .page-header {
     min-height: 520px;
-    padding-top: 280px;
+    padding-top: 120px;
     background-size: cover;
 }
 
