@@ -19,6 +19,12 @@
 
     <!-- Styles -->
     <link rel="stylesheet" href="style.css">
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
 </head>
 
 <style>
@@ -157,13 +163,13 @@
 
 .timeline-title {
     margin-top: 0;
-    color: black;
+    color: #EEEEEE;
 }
 
 .timeline-body > p,
 .timeline-body > ul {
     margin-bottom: 0;
-    color:#9E9E9E; 
+    color:#9E9E9E;
 }
 
     .timeline-body > p + p {
@@ -205,211 +211,197 @@
             right: auto;
         }
 }
+.mobile-alumini{
+    height: 2700px!important;
+}
+@media screen and (max-width: 991px) {
+    .mobile-text{
+        font-size: 80px!important;
+    }
+    .mobile-text1{
+        font-size: 45px!important;
+    }
+    .mobile-about{
+        max-height: 2000px!important;
+    }
+    .mobile-team{
+        max-height: 2400px!important;
+    }
+    .mobile-alumini{
+        height: 4500px!important;
+    }
+}
 </style>
 
 <body class="about-us">
-    <header class="site-header">
+    <header id="particles-js" class="mobile-alumini site-header" >
         <div class="header-bar">
-            <div class="container-fluid">
-                <div class="row align-items-center">
-                    <div class="col-10 col-lg-4">
-                        <h1 class="site-branding flex">
-                            <div>
-                                <a href="http://www.engineernitk.org/">
-                                    <img src="img/Engineer_Logo.png" height="50px" style="vertical-align:middle">
-                                    <span>ENGINEER</span>
-                                </a>
-                            </div>
-                        </h1>
-                    </div>
+            <div class="container-fluid fix-nav">
+                    <div class="row align-items-center">
+                        <div class="col-10 col-lg-4">
+                            <h1 class="site-branding flex">
+                                <div>
+                                    <a href="http://www.engineernitk.org/">
+                                        <img src="img/Engi_logo_3.png" height="60px" style="vertical-align:middle">
 
-                    <div class="col-2 col-lg-8">
-                        <nav class="site-navigation">
-                            <div class="hamburger-menu d-lg-none">
-                                <span></span>
-                                <span></span>
-                                <span></span>
-                                <span></span>
-                            </div><!-- .hamburger-menu -->
+                                    </a>
+                                </div>
+                            </h1>
+                        </div>
 
-                            <ul>
-                                <li><a href="index.html">TECHNITES 2018</a></li>
+                        <div class="col-2 col-lg-8">
+                            <nav class="site-navigation">
+                                <div class="hamburger-menu d-lg-none">
+                                    <span></span>
+                                    <span></span>
+                                    <span></span>
+                                    <span></span>
+                                </div><!-- .hamburger-menu -->
 
-                                
-                                <li><a href="about-us.html">ABOUT US</a></li>
-                                <li><a href="team.html">TEAM</a></li>
-                                <li><a href="alumini.html">ALUMNI</a></li>
-                                <li><a href="sig.html">SIGs</a></li>
-                                <li>
-                                    <a href="#" style="font-size: 30px;"><i class="fab fa-facebook-f"></i></a></li>
-                                <li>  <a href="#" style="font-size: 30px"><i class="fab fa-instagram"></i></a>
-                                </li>
-                                <li><a></a></li>
-                            </ul><!-- flex -->
-                        </nav><!-- .site-navigation -->
-                    </div><!-- .col-12 -->
-                </div><!-- .row -->
+                                <ul>
+                                    <li><a href="index.html">TECHNITES 2018</a></li>
+                                    <li><a href="sig.html">SIG's</a></li>
+                                    <li><a href="about-us.html">ABOUT US</a></li>
+                                    <li><a href="team.html">TEAM</a></li>
+                                    <li><a href="alumini.html">ALUMNI</a></li>
+
+                                    <li>
+                                        <a href="https://www.facebook.com/magiciansoftheafterdark" style="font-size: 30px;"><i class="fab fa-facebook-f"></i></a></li>
+                                    <li>  <a href="https://www.instagram.com/technites_nitk/" style="font-size: 30px"><i class="fab fa-instagram"></i></a>
+                                    </li>
+                                    <li><a></a></li>
+                                </ul><!-- flex -->
+                            </nav><!-- .site-navigation -->
+                        </div><!-- .col-12 -->
+                    </div><!-- .row -->
             </div><!-- container-fluid -->
-        </div><!-- header-bar -->
-    </header><!-- .site-header -->
 
-    <div class="page-header">
-        <div class="container">
-            <div class="row">
-                <div class="col-12">
+            <div class="main-content">
+                <div class="container">
                     <div class="entry-header">
-                        <h2 class="entry-title">About us</h2>
-
-                        <ul class="breadcrumbs flex align-items-center">
-                            <li><a href="#">Home</a></li>
-                            <li>About us</li>
-                        </ul><!-- .breadcrumbs -->
-                    </div><!-- .entry-header -->
-                </div><!-- .col-12 -->
-            </div><!-- .row -->
-        </div><!-- .container -->
-    </div><!-- .page-header -->
-
-    <div class="main-content">
-        <div class="container">
-            <div class="entry-header">
-                <div class="entry-title">
-                    <p>JUST THE BEST</p>
-                    <h2>A few words about us</h2>
-                </div><!-- -->
-            </div><!-- -->
-
-            <div class="entry-content">
-                <div class="row">
-                    <div class="col-12 col-lg-6">
-                        <div class="entry-header">
-                            <h3>We love our public</h3>
+                        <div class="entry-title">
+                            <p></p>
+                            <h2>Our Legacy</h2>
                         </div><!-- -->
+                    </div><!-- -->
 
-                        <div class="entry-description">
-                            <p>Quisque at erat eu libero consequat tempus. Quisque mole stie convallis tempus.
-                                Ut semper purus metus, a euismod sapien sodales ac. Duis viverra eleifend fermentum.
-                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris tempus vestibulum mauris quis aliquam.
-                                Integer accumsan sodales odio, id tempus velit ullamcorper id. Quisque at erat eu libero consequat tempus.
-                                 Quisque molestie convallis tempus. Ut semper purus metus, a euismod sapien sodales ac.
-                                 Duis viverra eleifend fermentum. Donec sagittis lacus sit amet augue sodales.</p>
-                        </div><!-- entry-description -->
-                    </div><!-- col-6 -->
 
-                    <div class="col-12 col-lg-6 mt-5 mt-lg-0">
-                        <div class="entry-header">
-                            <h3>10 year mission</h3>
-                        </div><!-- -->
 
-                        <div class="entry-description">
-                            <p>Quisque at erat eu libero consequat tempus. Quisque mole stie convallis tempus.
-                                Ut semper purus metus, a euismod sapien sodales ac. Duis viverra eleifend fermentum.
-                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris tempus vestibulum mauris quis aliquam.
-                                Integer accumsan sodales odio, id tempus velit ullamcorper id. Quisque at erat eu libero consequat tempus.
-                                 Quisque molestie convallis tempus. Ut semper purus metus, a euismod sapien sodales ac.
-                                 Duis viverra eleifend fermentum. Donec sagittis lacus sit amet augue sodales.</p>
-                        </div><!-- entry-description -->
-                    </div><!-- col-6 -->
-                </div><!-- row -->
-            </div><!-- entry-content -->
+                </div><!-- container -->
+            </div><!-- main-content -->
 
-        </div><!-- container -->
-    </div><!-- main-content -->
+            <div class="container">
+                <ul class="timeline">
+                    <li>
+                      <div class="timeline-badge info"><i class="glyphicon glyphicon-check"></i></div>
+                      <div class="timeline-panel">
+                        <div class="timeline-heading entry-header" >
+                          <h3 class="timeline-title">Mathew Paul</h3>
 
-    <div class="container">
-        <ul class="timeline">
-            <li>
-              <div class="timeline-badge"><i class="glyphicon glyphicon-check"></i></div>
-              <div class="timeline-panel">
-                <div class="timeline-heading entry-header" >
-                  <h3 class="timeline-title">Mussum ipsum cacilds</h3>
-                  <p><small class="text-muted"><i class="glyphicon glyphicon-time"></i> 11 hours ago via Twitter</small></p>
-                </div>
-                <div class="timeline-body">
-                  <p>Mussum ipsum cacilds, vidis litro abertis. Consetis adipiscings elitis. Pra lá , depois divoltis porris, paradis. Paisis, filhis, espiritis santis. Mé faiz elementum girarzis, nisi eros vermeio, in elementis mé pra quem é amistosis quis leo. Manduma pindureta quium dia nois paga. Sapien in monti palavris qui num significa nadis i pareci latim. Interessantiss quisso pudia ce receita de bolis, mais bolis eu num gostis.</p>
-                </div>
-              </div>
-            </li>
-            <li class="timeline-inverted">
-              <div class="timeline-badge warning"><i class="glyphicon glyphicon-credit-card"></i></div>
-              <div class="timeline-panel">
-                <div class="timeline-heading">
-                  <h4 class="timeline-title">Mussum ipsum cacilds</h4>
-                </div>
-                <div class="timeline-body">
-                  <p>Mussum ipsum cacilds, vidis litro abertis. Consetis adipiscings elitis. Pra lá , depois divoltis porris, paradis. Paisis, filhis, espiritis santis. Mé faiz elementum girarzis, nisi eros vermeio, in elementis mé pra quem é amistosis quis leo. Manduma pindureta quium dia nois paga. Sapien in monti palavris qui num significa nadis i pareci latim. Interessantiss quisso pudia ce receita de bolis, mais bolis eu num gostis.</p>
-                  <p>Suco de cevadiss, é um leite divinis, qui tem lupuliz, matis, aguis e fermentis. Interagi no mé, cursus quis, vehicula ac nisi. Aenean vel dui dui. Nullam leo erat, aliquet quis tempus a, posuere ut mi. Ut scelerisque neque et turpis posuere pulvinar pellentesque nibh ullamcorper. Pharetra in mattis molestie, volutpat elementum justo. Aenean ut ante turpis. Pellentesque laoreet mé vel lectus scelerisque interdum cursus velit auctor. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam ac mauris lectus, non scelerisque augue. Aenean justo massa.</p>
-                </div>
-              </div>
-            </li>
-            <li>
-              <div class="timeline-badge danger"><i class="glyphicon glyphicon-credit-card"></i></div>
-              <div class="timeline-panel">
-                <div class="timeline-heading">
-                  <h4 class="timeline-title">Mussum ipsum cacilds</h4>
-                </div>
-                <div class="timeline-body">
-                  <p>Mussum ipsum cacilds, vidis litro abertis. Consetis adipiscings elitis. Pra lá , depois divoltis porris, paradis. Paisis, filhis, espiritis santis. Mé faiz elementum girarzis, nisi eros vermeio, in elementis mé pra quem é amistosis quis leo. Manduma pindureta quium dia nois paga. Sapien in monti palavris qui num significa nadis i pareci latim. Interessantiss quisso pudia ce receita de bolis, mais bolis eu num gostis.</p>
-                </div>
-              </div>
-            </li>
-            <li class="timeline-inverted">
-              <div class="timeline-panel">
-                <div class="timeline-heading">
-                  <h4 class="timeline-title">Mussum ipsum cacilds</h4>
-                </div>
-                <div class="timeline-body">
-                  <p>Mussum ipsum cacilds, vidis litro abertis. Consetis adipiscings elitis. Pra lá , depois divoltis porris, paradis. Paisis, filhis, espiritis santis. Mé faiz elementum girarzis, nisi eros vermeio, in elementis mé pra quem é amistosis quis leo. Manduma pindureta quium dia nois paga. Sapien in monti palavris qui num significa nadis i pareci latim. Interessantiss quisso pudia ce receita de bolis, mais bolis eu num gostis.</p>
-                </div>
-              </div>
-            </li>
-            <li>
-              <div class="timeline-badge info"><i class="glyphicon glyphicon-floppy-disk"></i></div>
-              <div class="timeline-panel">
-                <div class="timeline-heading">
-                  <h4 class="timeline-title">Mussum ipsum cacilds</h4>
-                </div>
-                <div class="timeline-body">
-                  <p>Mussum ipsum cacilds, vidis litro abertis. Consetis adipiscings elitis. Pra lá , depois divoltis porris, paradis. Paisis, filhis, espiritis santis. Mé faiz elementum girarzis, nisi eros vermeio, in elementis mé pra quem é amistosis quis leo. Manduma pindureta quium dia nois paga. Sapien in monti palavris qui num significa nadis i pareci latim. Interessantiss quisso pudia ce receita de bolis, mais bolis eu num gostis.</p>
-                  <hr>
-                  <div class="btn-group">
-                    <button type="button" class="btn btn-primary btn-sm dropdown-toggle" data-toggle="dropdown">
-                      <i class="glyphicon glyphicon-cog"></i> <span class="caret"></span>
-                    </button>
-                    <ul class="dropdown-menu" role="menu">
-                      <li><a href="#">Action</a></li>
-                      <li><a href="#">Another action</a></li>
-                      <li><a href="#">Something else here</a></li>
-                      <li class="divider"></li>
-                      <li><a href="#">Separated link</a></li>
-                    </ul>
-                  </div>
-                </div>
-              </div>
-            </li>
-            <li>
-              <div class="timeline-panel">
-                <div class="timeline-heading">
-                  <h4 class="timeline-title">Mussum ipsum cacilds</h4>
-                </div>
-                <div class="timeline-body">
-                  <p>Mussum ipsum cacilds, vidis litro abertis. Consetis adipiscings elitis. Pra lá , depois divoltis porris, paradis. Paisis, filhis, espiritis santis. Mé faiz elementum girarzis, nisi eros vermeio, in elementis mé pra quem é amistosis quis leo. Manduma pindureta quium dia nois paga. Sapien in monti palavris qui num significa nadis i pareci latim. Interessantiss quisso pudia ce receita de bolis, mais bolis eu num gostis.</p>
-                </div>
-              </div>
-            </li>
-            <li class="timeline-inverted">
-              <div class="timeline-badge success"><i class="glyphicon glyphicon-thumbs-up"></i></div>
-              <div class="timeline-panel">
-                <div class="timeline-heading">
-                  <h4 class="timeline-title">Mussum ipsum cacilds</h4>
-                </div>
-                <div class="timeline-body">
-                  <p>Mussum ipsum cacilds, vidis litro abertis. Consetis adipiscings elitis. Pra lá , depois divoltis porris, paradis. Paisis, filhis, espiritis santis. Mé faiz elementum girarzis, nisi eros vermeio, in elementis mé pra quem é amistosis quis leo. Manduma pindureta quium dia nois paga. Sapien in monti palavris qui num significa nadis i pareci latim. Interessantiss quisso pudia ce receita de bolis, mais bolis eu num gostis.</p>
-                </div>
-              </div>
-            </li>
-        </ul>
-    </div>
+                        </div>
+                        <div class="timeline-body">
+                          <p>Convener ♦ 2009</p>
+                        </div>
+                      </div>
+                    </li>
+                    <li class="timeline-inverted">
+                      <div class="timeline-badge info"><i class="glyphicon glyphicon-credit-card"></i></div>
+                      <div class="timeline-panel">
+                        <div class="timeline-heading">
+                          <h4 class="timeline-title">Avinash Ahuja</h4>
+                        </div>
+                        <div class="timeline-body">
+                          <p>Convener ♦ 2010</p>
+                        </div>
+                      </div>
+                    </li>
+                    <li>
+                      <div class="timeline-badge info"><i class="glyphicon glyphicon-credit-card"></i></div>
+                      <div class="timeline-panel">
+                        <div class="timeline-heading">
+                          <h4 class="timeline-title">Tejovanth N</h4>
+                        </div>
+                        <div class="timeline-body">
+                          <p>Convener ♦ 2011</p>
+                        </div>
+                      </div>
+                      <li class="timeline-inverted">
+                        <div class="timeline-badge info"><i class="glyphicon glyphicon-floppy-disk"></i></div>
+                        <div class="timeline-panel">
+                          <div class="timeline-heading">
+                            <h4 class="timeline-title">Adarsh Hasnadka</h4>
+                          </div>
+                          <div class="timeline-body">
+                            <p>Convener ♦ 2012</p>
+                          </div>
+                        </div>
+                      </li>
+                    <li>
+                      <div class="timeline-badge info"><i class="glyphicon glyphicon-floppy-disk"></i></div>
+                      <div class="timeline-panel">
+                        <div class="timeline-heading">
+                          <h4 class="timeline-title">Jacob Varghese</h4>
+                        </div>
+                        <div class="timeline-body">
+                          <p>Convener ♦ 2013</p>
+
+
+                        </div>
+                      </div>
+                    </li>
+                    <li class="timeline-inverted">
+                      <div class="timeline-badge info"><i class="glyphicon glyphicon-floppy-disk"></i></div>
+                      <div class="timeline-panel">
+                        <div class="timeline-heading">
+                          <h4 class="timeline-title">Amit Raj ♦ Oshim Jain</h4>
+                        </div>
+                        <div class="timeline-body">
+                          <p>Convener ♦ 2014</p>
+
+
+                        </div>
+                      </div>
+                    </li>
+                    <li>
+                      <div class="timeline-badge info"><i class="glyphicon glyphicon-floppy-disk"></i></div>
+                      <div class="timeline-panel">
+                        <div class="timeline-heading">
+                          <h4 class="timeline-title">Shreyas Jain ♦ Rishee</h4>
+                        </div>
+                        <div class="timeline-body">
+                          <p>Convener ♦ 2015</p>
+
+
+
+                        </div>
+                      </div>
+                    </li>
+                    <li class="timeline-inverted">
+                      <div class="timeline-badge info"><i class="glyphicon glyphicon-floppy-disk"></i></div>
+                      <div class="timeline-panel">
+                        <div class="timeline-heading">
+                          <h4 class="timeline-title">Sachin ♦ Aswanth</h4>
+                        </div>
+                        <div class="timeline-body">
+                          <p>Convener ♦ 2016</p>
+                        </div>
+                      </div>
+                    </li>
+                    <li>
+                      <div class="timeline-badge info"><i class="glyphicon glyphicon-floppy-disk"></i></div>
+                      <div class="timeline-panel">
+                        <div class="timeline-heading">
+                          <h4 class="timeline-title">Alok Aryan ♦ Jugal Parmar</h4>
+                        </div>
+                        <div class="timeline-body">
+                          <p>Convener ♦ 2017</p>
+                        </div>
+                      </div>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </header>
 
     <footer class="site-footer">
         <div class="footer-cover-title flex justify-content-center align-items-center">
@@ -452,5 +444,11 @@ Module designed by Priyam & Shushant <br> Contributors: Rakshita, Sankalp, Shwet
     <script type='text/javascript' src='js/circle-progress.min.js'></script>
     <script type='text/javascript' src='js/jquery.countTo.min.js'></script>
     <script type='text/javascript' src='js/custom.js'></script>
+     <!-- scripts -->
+    <script src="particles.js"></script>
+    <script src="js/app.js"></script>
+
+    <!-- stats.js -->
+    <script src="js/lib/stats.js"></script>
 </body>
 </html>

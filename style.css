@@ -181,7 +181,7 @@ body {
     color: #fff;
     transition: all 0.35s;
     text-decoration: none;
-    font-size: 22px;
+    font-size: 18px;
     padding-left: 30px;
 }
 
@@ -639,13 +639,46 @@ body {
     }
 }
 
-@media screen and (max-width: 768px) {
+.mobile-sig{
+    max-height:1800px;
+}
+.mobile-about{
+    max-height:1000px;
+}
+.mobile-team{
+    max-height:1000px;
+}
+.mobile-alumini{
+    height:5000px;
+}
+.mobile-sig-single{
+    max-height: 1300px;
+}
+
+@media screen and (max-width: 991px) {
     .mobile-text{
         font-size: 80px!important;
     }
     .mobile-text1{
         font-size: 45px!important;
     }
+    .mobile-sig{
+        max-height:2000px!important;
+    }
+    .mobile-about{
+        max-height: 2000px!important;
+    }
+    .mobile-team{
+        max-height: 2400px!important;
+    }
+    .mobile-alumini{
+        max-height: 20000px!important;
+    }
+    .mobile-sig-single{
+        max-height: 2200px!important;
+        min-height: 2100px;
+    }
+
 }
 
 
@@ -1017,9 +1050,7 @@ body {
 # about-us
 ------------------------------------------------------------*/
 .about-us {
-    background: url("images/about-us-background.jpg") no-repeat;
-    width: 100%;
-    height: 100%;
+    background: black;
 }
 
 /*------------------------------------------------------------
@@ -1109,7 +1140,7 @@ body {
     padding: 0;
     font-size: 48px;
     font-weight: 600;
-    color: #040608;
+    color: #EEEEEE;
 }
 
 .about-us .main-content .entry-content {
@@ -1121,7 +1152,7 @@ body {
     padding: 0;
     font-size: 24px;
     font-weight: 600;
-    color: #040608;
+    color: #BDBDBD;
 }
 
 .about-us .main-content .entry-content .entry-description p {
@@ -1867,7 +1898,7 @@ body {
 .counter-box .counter-k {
     font-size: 60px;
     font-weight: 600;
-    color: #040608;
+    color: #BDBDBD;
     text-align: center;
 }
 
@@ -2139,4 +2170,13 @@ body {
     margin-right: auto;
     width: 75%;
     min-width: 300px;
+}
+
+.fix-nav{
+    position: fixed;
+    z-index: 1000
+}
+
+.margin-nav{
+    margin-top: 50px
 }
