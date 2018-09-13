@@ -1163,7 +1163,8 @@ body {
     font-weight: 300;
     color: #989898;
     line-height: 2;
-    word-break: break-all;
+    word-break: keep-all;
+    text-align: justify;
     hyphens: auto;
 }
 
