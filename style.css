@@ -664,7 +664,9 @@ body {
     min-height: 2000px;
     max-height: 3000px;
 }
-
+.mobile-sig-mech{
+    max-height: 1200px;
+}
 
 
 
