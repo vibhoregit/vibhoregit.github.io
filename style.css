@@ -700,7 +700,7 @@ body {
 
 
 @media screen and (min-width: 1200px) {
-    .the-complete-lineup-artists .artist-single:nth-child(1) {
+/*    .the-complete-lineup-artists .artist-single:nth-child(1) {
         margin-top: 2px;
     }
 
@@ -730,7 +730,7 @@ body {
 
     .the-complete-lineup-artists .artist-single:nth-child(8) {
         margin-top: 75px;
-    }
+    }*/
 }
 
 /*------------------------------------------------------------
